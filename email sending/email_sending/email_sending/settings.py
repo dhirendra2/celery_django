@@ -159,7 +159,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 
 # Here is gives EMAIL_HOST_USER AND EMAIL_HOST_PASSWORD 
-EMAIL_HOST_USER = 'dhirendra@saavi.com.au'
+EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
