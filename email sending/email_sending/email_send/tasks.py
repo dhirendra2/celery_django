@@ -14,8 +14,8 @@ def create_mail_message():
     """Here gives email subject , to_address email id , from_address email id , content of messaage , html_contennt of message"""
     new_message = MailerMessage()
     new_message.subject = "My Subject" 
-    new_message.to_address = "jarnail@saavi.com.au"
-    new_message.from_address = "dhirendra@saavi.com.au"
+    new_message.to_address = "receiver email"
+    new_message.from_address = "sender email"
     new_message.content = "Mail content"
     new_message.html_content = "<h1>Mail Content</h1>"
     new_message.app = "this is test email please ignore."
